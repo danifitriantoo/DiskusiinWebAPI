@@ -69,7 +69,7 @@ var app = builder.Build();
 app.MapPost("/API/Login",
 [AllowAnonymous] (Mahasiswa model) =>
 {
-    if (model.NIM == "21.02.0687" && model.Password == "danifn12")
+    if (model.NIM == "21.00.9090" && model.Password == "yyymd012")
     {
         var issuer = builder.Configuration["Jwt:Issuer"];
         var audience = builder.Configuration["Jwt:Audience"];
